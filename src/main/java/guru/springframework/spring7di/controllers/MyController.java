@@ -18,6 +18,6 @@ public class MyController {
 
         System.out.println("In Controller");
 
-        return greetingService.sayHello();
+        return greetingService.sayGreeting();
     }
 }
